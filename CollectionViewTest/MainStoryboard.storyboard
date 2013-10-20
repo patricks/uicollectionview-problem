@@ -38,6 +38,10 @@
                                         <color key="backgroundColor" red="0.270588249" green="0.74509805439999999" blue="0.1411764771" alpha="1" colorSpace="deviceRGB"/>
                                     </collectionViewCell>
                                 </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="kbM-KJ-Zbd" id="zPN-4E-ckv"/>
+                                    <outlet property="delegate" destination="kbM-KJ-Zbd" id="C2g-Oe-a7D"/>
+                                </connections>
                             </collectionView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PSL-2H-Y4g">
                                 <rect key="frame" x="137" y="64" width="46" height="30"/>

@@ -21,7 +21,6 @@
 		CDDA49FF181113BF002D99C8 /* CollectionViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDA49FE181113BF002D99C8 /* CollectionViewTestTests.m */; };
 		CDDA4A09181113FE002D99C8 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDDA4A08181113FE002D99C8 /* MainStoryboard.storyboard */; };
 		CDDA4A0C18111572002D99C8 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDA4A0B18111572002D99C8 /* MainViewController.m */; };
-		CDDA4A0F18111768002D99C8 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDA4A0E18111768002D99C8 /* CollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +53,6 @@
 		CDDA4A08181113FE002D99C8 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard.storyboard; path = ../MainStoryboard.storyboard; sourceTree = "<group>"; };
 		CDDA4A0A18111572002D99C8 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		CDDA4A0B18111572002D99C8 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		CDDA4A0D18111768002D99C8 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
-		CDDA4A0E18111768002D99C8 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,8 +116,6 @@
 				CDDA49E9181113BE002D99C8 /* AppDelegate.m */,
 				CDDA4A0A18111572002D99C8 /* MainViewController.h */,
 				CDDA4A0B18111572002D99C8 /* MainViewController.m */,
-				CDDA4A0D18111768002D99C8 /* CollectionViewController.h */,
-				CDDA4A0E18111768002D99C8 /* CollectionViewController.m */,
 				CDDA4A08181113FE002D99C8 /* MainStoryboard.storyboard */,
 				CDDA49EB181113BF002D99C8 /* Images.xcassets */,
 				CDDA49E0181113BE002D99C8 /* Supporting Files */,
@@ -253,7 +248,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDDA4A0F18111768002D99C8 /* CollectionViewController.m in Sources */,
 				CDDA49EA181113BE002D99C8 /* AppDelegate.m in Sources */,
 				CDDA4A0C18111572002D99C8 /* MainViewController.m in Sources */,
 				CDDA49E6181113BE002D99C8 /* main.m in Sources */,
@@ -457,6 +451,7 @@
 				CDDA4A04181113BF002D99C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CDDA4A05181113BF002D99C8 /* Build configuration list for PBXNativeTarget "CollectionViewTestTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +460,7 @@
 				CDDA4A07181113BF002D99C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
